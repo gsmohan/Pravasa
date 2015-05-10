@@ -1,0 +1,13 @@
+<div layout="column">	
+	<md-toolbar layout="row">
+	    <div layout="row" class="md-toolbar-tools">
+	      <div flex="5" >
+	        <md-icon  ng-click="goBack()" md-svg-src="images/back-icon.svg" alt="Insert Drive Icon"></md-icon>
+	      </div>  
+	      <h1 flex="90" class="center-align">{{ place.title }}</h1>
+	    </div>
+	</md-toolbar>	
+
+	<md-content layout-padding>{{ place.content }}</md-content>
+</div>
+

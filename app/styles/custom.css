@@ -1,0 +1,63 @@
+/* Global classes */
+/* line 3, custom.scss */
+.center-align {
+  text-align: center;
+}
+
+/* Overriding styles */
+/* line 9, custom.scss */
+body {
+  padding: 0px;
+}
+
+/* line 13, custom.scss */
+.md-list-item-text {
+  padding-left: 1em;
+}
+
+/* line 17, custom.scss */
+.action-sheet-item {
+  padding: 0px 20px;
+}
+
+/* line 21, custom.scss */
+md-toolbar {
+  position: fixed;
+}
+
+/* line 25, custom.scss */
+md-toolbar.md-default-theme {
+  background-color: #8bc34a !important;
+  color: #000000 !important;
+}
+
+/* line 31, custom.scss */
+md-content {
+  margin-top: 4em;
+}
+
+/* line 37, custom.scss */
+.bottomSheetdemoBasicUsage .md-inline-list-icon-label {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -10px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+/* line 44, custom.scss */
+.bottomSheetdemoBasicUsage .md-grid-item-content {
+  height: 96px;
+}
+
+/* line 46, custom.scss */
+.bottomSheetdemoBasicUsage .md-grid-item-content md-icon {
+  height: 48px;
+  width: 48px;
+}
+
+/* line 49, custom.scss */
+.bottomSheetdemoBasicUsage .md-grid-text {
+  padding-bottom: 5px;
+}
